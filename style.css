@@ -1,0 +1,93 @@
+body {
+  background-color:darkred;
+}
+p {
+  color: darkgoldenrod;
+  font-family: arial;
+  font-size: 10px;
+}
+
+h1{
+  color: black;
+  font-family: fantasy;
+  font-size: 45px;
+}
+
+h2 {
+  color:black;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: fantasy;
+  
+
+}
+
+h3{
+  color:black;
+  font-size: 25px;
+  font-family: fantasy;
+}
+
+h4{
+  color:black;
+  font-size: 15px;
+  font-family: fantasy;
+}
+
+ol{
+  color: darkgoldenrod;
+  background-color:;
+  font-size: 15px;
+  font-family: arial;
+}
+
+li{
+  color:darkgoldenrod ;
+  font-size: 15px;
+  background-color:;
+  font-family: arial
+}
+img{
+  background-image: url("download-(1).jpeg");
+  float:right;
+  width:250px;
+  height:170px;
+  margin:-0px;
+  border-color: #054405;
+  border-width:5px;
+  border-style:double;
+  border-radius:10px;
+  
+}
+
+img{
+  background-image: url("download-(3).jpeg");
+  float:right;
+  width:120px;
+  height:100px;
+  margin:-0px;
+  border-color: #054405;
+  border-width:5px;
+  border-style:double;
+  border-radius:10px;
+}
+
+.gallery{
+  padding: 5px;
+}
+
+.content {
+  display:flex;
+  flex-wrap:wrap;
+align-content: flex-start;
+  justify-content: flex-start;
+  
+}
+
+.kitchen-card {
+  display:flex;
+  flex-wrap:wrap;
+  align-content: center;
+  justify-content:flex-start;
+  
+}
